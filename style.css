@@ -1,13 +1,13 @@
 body{
-    background-color: aqua;
-    color:blueviolet;
+    background-color: rgb(141, 192, 192);
+    color:rgb(194, 150, 236);
     font-family:Arial, sans-serif ;
     margin: 0;
 }
 
 header{
-    background-color: beige;
-    color:black;
+    background-color: rgb(150, 175, 153);
+    color:rgb(255, 197, 197);
     text-align: center;
     padding: 30px;
 }
@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-    color:palevioletred;
+    color:rgb(253, 160, 191);
 }
 
 p{
@@ -31,9 +31,9 @@ nav{
 }
 
 nav a{
-    color: bisque;
+    color: rgb(228, 201, 169);
     text-decoration: none;
-    background-color: green;
+    background-color: rgb(94, 124, 94);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -41,7 +41,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: plum;
+    background-color: rgb(226, 174, 213);
 }
 
 main {
@@ -50,7 +50,7 @@ main {
 }
 
 section {
-    background-color: chocolate;
+    background-color: rgb(106, 153, 129);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -62,4 +62,11 @@ img {
     display: block;
     margin: auto;
     border-radius: 12px;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(214, 148, 200);
+    margin-top: 8px;
 }
